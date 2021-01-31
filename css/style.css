@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap");
+
+body {
+  color: white;
+  background-color: #242b33;
+  margin: 0;
+}
+/* Header */
+.header {
+  background: url("../images/Rectangle.png");
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background: url("../images/first-screen__logo.svg");
+  width: 134px;
+  height: 66px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style-type: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar__item {
+  margin-right: 15px;
+}
+
+.header__welcome {
+  margin-top: 260px;
+}
+
+.header__welcome-title {
+  font-size: 48px;
+  text-align: center;
+  color: #d4c17f;
+  font-family: "Playfair Display", serif;
+}
+.header__mouse {
+  background: url("../images/mouse.svg");
+  width: 40px;
+  height: 40px;
+  margin: 150px auto;
+}
+.header__contacts {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Playfair Display", serif;
+}
+
+/* Testimonials */
+.testimonials {
+  display: flex;
+  margin: 100px 0;
+}
+.testimonials__item {
+  width: 25%;
+  text-align: center;
+  vertical-align: text-top;
+  margin: 0 30px;
+  position: relative;
+}
+.testimonials__icon {
+  margin-top: 120px;
+}
+.testimonials__text {
+  font-family: normal;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+}
+
+.img-absolute {
+  position: absolute;
+  top: 30px;
+  right: -250px;
+}
+
+.appartments {
+  color: #d4c17f;
+  font-size: 36px;
+}
+
+.img-absolute-2 {
+  position: absolute;
+  top: 1530px;
+}
+
+.appartments__gallery img {
+  max-width: 450px;
+}
+
+.appartments__gallery-1,
+.appartments__gallery-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+span {
+  font-size: 20px;
+  color: white;
+}
+
+.gallery-1__item,
+.gallery-2__item {
+  position: relative;
+}
+
+.appartments span {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+}
